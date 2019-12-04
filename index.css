@@ -1,0 +1,60 @@
+.rings {
+  position: relative;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+.ring_1 {
+  height: 150px;
+  width: 150px;
+  border: 10px solid red;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.ring_2 {
+  height: 175px;
+  width: 175px;
+  border: 10px solid blue;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.ring_3 {
+  height: 200px;
+  width: 200px;
+  border: 10px solid green;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.ring_4 {
+  height: 225px;
+  width: 225px;
+  border: 10px solid yellow;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.ring_5 {
+  height: 250px;
+  width: 250px;
+  border: 10px solid black;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 80%;
+}
+
+.ring_6 {
+  height: 275px;
+  width: 275px;
+  border: 10px solid orange;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 80%;
+}
+/*# sourceMappingURL=index.css.map */

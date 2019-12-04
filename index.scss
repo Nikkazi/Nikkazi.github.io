@@ -1,0 +1,45 @@
+.rings {
+    position: relative;
+    display: inline-block;
+    margin-top: 10%;
+}
+
+@mixin allRings {
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 80%;
+}
+
+$ringCount: ring_1,
+ring_2,
+ring_3,
+ring_4,
+ring_5,
+ring_6;
+$ringHeight: 150px,
+175px,
+200px,
+225px,
+250px,
+275px;
+$ringWidth: 150px,
+175px,
+200px,
+225px,
+250px,
+275px;
+$border-color: red,
+blue,
+green,
+yellow,
+black,
+orange;
+$index: 1;
+@for $i from 1 through 6 {
+    .#{nth($ringCount, $i)} {
+        height: nth($ringHeight, $i);
+        width: nth($ringWidth, $i);
+        border: 10px solid nth($border-color, $i);
+        @include allRings();
+    }
+}
